@@ -5,8 +5,6 @@ Para executar o programa agenda, foi utilizado o SGBD MariaDB versão 10.4.21, c
 A agenda foi desenvolvida em Java, e a IDE utilizada foi o Eclipse IDE for Enterprise Java and Web Developers - 2021-06.
 Para executar o programa agenda, foi utilizado o servidor: Tomcat v8.5 Server at localhost
 
-A conexão das páginas html com o Java, foram utilizadas requisições HTTP (GET e POST) Ajax com jQuery. E o retorno dos dados do Java, vem em formato JSON.
-
 Bibliotecas usadas:
 
 // biblioteca que converte os dados para JSON
@@ -21,3 +19,5 @@ mysql-connector-java-5.1.6-bin.jar
 Essas 3 bibliotecas acima encontram-se dentro da pasta WEB-INF
 
 Essa estrutura de pastas foi gerada automaticamente pelo IDE Eclipse.
+
+Agenda de Contatos em Java com Banco de Dados MySQL usando as aplicações básicas de CRUD. Essa aplicação foi baseada na agenda desenvolvida pelo Profº José de Assis no curso de Java WEB do YouTube.
