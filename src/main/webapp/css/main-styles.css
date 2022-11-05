@@ -1,0 +1,43 @@
+.cabecalho {
+    width: 100%;
+}
+#botaoNovoContato {
+    margin-right: 35px;
+}
+#gerarRelatorio {
+    padding: 8px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #FFF;
+    background: #008000;
+}
+#gerarRelatorio:hover {
+    background: #006400;
+}
+#botaoEditar {
+    margin-right: 30px;
+}
+table thead tr {
+    border: 3px solid;
+}
+
+/* media queries */
+@media (max-width: 576px) {
+    #dadosTabela, table thead tr {
+        font-size: 0.8em;
+    }
+    #botaoEditar, #botaoExcluir {
+        font-size: 15px;
+    }
+    #botaoEditar {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 576.01px) and (max-width: 768px) {
+    #botaoEditar {
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+}

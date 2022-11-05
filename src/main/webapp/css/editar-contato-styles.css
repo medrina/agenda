@@ -1,0 +1,10 @@
+#id:hover {
+    cursor: not-allowed;
+}
+div.input-group span {
+    padding-left: 10px;
+    font-size: 0.7em;
+}
+#botaoSalvar {
+    margin-right: 2em;
+}

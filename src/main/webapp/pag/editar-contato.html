@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+        <meta charset="UTF-8">
+        <title>Agenda - Editar Contato</title>
+
+        <!-- CDN Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="*">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+        <!-- Arquivo CSS-->
+        <link rel="stylesheet" type="text/css" href="../css/editar-contato-styles.css">
+
+        <!-- CDN jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+        <!-- Arquivo JavaScript -->
+        <script type="text/javascript" src="../js/editar-contato-scripts.js"></script>
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <h1 class="text-center">Editar Contato</h1>
+                <form class="p-4">
+                    <div class="input-group w-25 mb-3 mt-2">
+                        <span class="input-group-text border border-secondary">COD</span>
+                        <input type="text" class="form-control border border-secondary" id="id" readonly>
+                    </div>
+                    <div class="input-group mb-3 mt-2">
+                        <span class="input-group-text border border-secondary">NOME</span>
+                        <input type="text" class="form-control border border-secondary" id="nome">
+                        <span>Campo<br>obrigatório</span>
+                    </div>
+                    <div class="input-group w-50 mb-3 mt-2">
+                        <span class="input-group-text border border-secondary">FONE</span>
+                        <input type="text" class="form-control border border-secondary" id="fone">
+                        <span>Campo<br>obrigatório</span>
+                    </div>
+                    <div class="input-group mb-3 mt-2">
+                        <span class="input-group-text border border-secondary">E-MAIL</span>
+                        <input type="text" class="form-control border border-secondary" id="email">
+                    </div>
+                    <button type="button" class="btn btn-outline-success mt-3" id="botaoSalvar" title="Atualizar Contato">Salvar</button>
+                    <button type="button" class="btn btn-outline-primary mt-3" id="botaoVoltarMain" title="Voltar p/ Menu Principal">Voltar</button>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
